@@ -6,3 +6,6 @@ sources:
     schema: stripe
     tables:
       - name: payment
+        tests:
+        - unique
+        - not_nul
